@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 150%;
+    margin: auto;
+    padding: 0;
+    background-color: #f0f0f0;
+    
+}
+.container {
+    max-width: 80%;
+    margin: 10px auto;
+    background-color: #a2edce;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+.datos{
+    margin-left: 10px;
+    padding: 20px;
+}
+.perfil{
+    width: 200px;
+    height: 200px;
+    float: right;
+    border-radius: 40%;
+    border-color: black;
+    border-style: groove;
+    margin-right: 10%;
+
+}
+.enlace-correo{
+    text-decoration: none;
+}
+.enlace-telefono{
+    text-decoration: none;
+}
+
+.category:hover {
+    background-color: #a2edce;
+    color: #fff; 
+  }
+
+h1{
+    text-align: center;
+    color: #333;
+}
+
+.category {
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.category h2 {
+    cursor: pointer;
+}
+.category-content {
+    display: none;
+    
+}
+.category-content.active {
+    display: block;
+}
+
+ul li {
+    padding: 10px 0;
+  }
+.logo-container {
+    width: 50px;
+       
+}
+.category-content .logo-container {
+    display: inline-block;
+    margin: 0 50px;
+    width: 50px;
+    align-items: center;  
+  }
+.logo{
+    width: 50px;
+    align-items: center;
+}
+.download {
+    background-color:#a2edce; 
+    color: black; 
+    border: white;
+    border-style:double;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer; 
+    text-align: center;
+
+}
+.download:hover { 
+    background-color:white; 
+    border-color: white;
+}
+.boton{
+    text-align: center;
+    
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px 0;
+    
+  }
+
+.linkedin-logo {
+    display: inline-block;
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+  }
+

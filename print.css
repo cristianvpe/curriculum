@@ -1,0 +1,36 @@
+@media print {
+ 
+  body {
+    font-size: 12pt;
+    color: black;
+    background-color: white;
+  }
+  .perfil {
+    width: 150px;
+    height: 150px;
+  }
+  .download {
+    display: none; 
+    justify-content: center;
+    align-items: center;
+  }
+
+  .category-content {
+    display: block !important;
+  }
+
+  h1, h2, h3, p, ul {
+    margin: 0.5rem 0;
+    line-height: 1.5;
+  }
+
+  ul li {
+    list-style-type: disc;
+    margin-left: 1.25rem;
+  }
+
+ 
+}
+
+
+
