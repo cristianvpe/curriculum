@@ -33,14 +33,14 @@ body {
     border-style: groove;
     margin-right: 10%;
 }
-.perfil:hover{
+.imagen-perfil:hover{
     transform: scale(1.2);
 }
 
 .enlace-telefono {
     text-decoration: none;
     display: flex;
-    align-items: center;
+    
 }
 .enlace-correo {
     text-decoration: none;
