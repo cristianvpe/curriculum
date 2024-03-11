@@ -18,6 +18,7 @@ body {
 .datos{
     margin-left: 10px;
     padding: 20px;
+    
 }
 .datos img {
     pointer-events: none;
@@ -33,10 +34,13 @@ body {
     margin-right: 10%;
 }
 .perfil:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
+
 .enlace-correo, .enlace-telefono {
     text-decoration: none;
+    display: flex;
+    align-items: center;
   }
 h2:hover{
     color: #675e5e;
@@ -120,4 +124,8 @@ footer {
     height: 24px;
     vertical-align: middle;
   }
-
+  @media (max-width: 768px) {
+    .perfil:hover {
+      pointer-events: none;
+    }
+  }
