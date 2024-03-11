@@ -37,12 +37,13 @@ body {
     transform: scale(1.2);
 }
 
-.enlace-correo, .enlace-telefono {
+.enlace-telefono {
     text-decoration: none;
     display: flex;
     align-items: center;
 }
 .enlace-correo {
+    text-decoration: none;
     word-break: break-all;
 }
 h2:hover{
