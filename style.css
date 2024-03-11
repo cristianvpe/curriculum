@@ -36,10 +36,10 @@ body {
     text-decoration: none;
 }
 
-.category:hover {
-    background-color: #a2edce;
-    color: #fff; 
-  }
+h2:hover{
+    color: #675e5e;
+}
+
 
 h1{
     text-align: center;
@@ -78,6 +78,9 @@ ul li {
     align-items: center;
     width: 50px;
     height: 50px;
+}
+.logo:hover{
+    transform: scale(1.5);
 }
 .download {
     background-color:#a2edce; 
