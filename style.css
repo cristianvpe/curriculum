@@ -40,7 +40,7 @@ body {
 .enlace-telefono {
     text-decoration: none;
     display: flex;
-    
+    align-items: center;
 }
 .enlace-correo {
     text-decoration: none;
