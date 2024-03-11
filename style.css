@@ -41,7 +41,10 @@ body {
     text-decoration: none;
     display: flex;
     align-items: center;
-  }
+}
+.enlace-correo {
+    word-break: break-all;
+}
 h2:hover{
     color: #675e5e;
 }
