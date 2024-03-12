@@ -24,6 +24,21 @@ body {
     pointer-events: none;
   }
 
+.datos p {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 10px;
+  }
+  
+  .datos p img {
+    margin-right: 10px; 
+  }
+  
+  .contacto { 
+    font-weight: bold; 
+  }
+  
+
 .imagen-perfil{
     width: 200px;
     height: 200px;
