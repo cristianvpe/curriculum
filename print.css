@@ -5,10 +5,15 @@
     color: black;
     background-color: white;
   }
-  .perfil {
-    width: 150px;
-    height: 150px;
-  }
+  .imagen-perfil{
+    width: 200px;
+    height: 200px;
+    float: right;
+    border-radius: 40%;
+    border-color: black;
+    border-style: groove;
+    margin-right: 10%;
+}
   .download {
     display: none; 
     justify-content: center;
