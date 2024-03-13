@@ -147,8 +147,23 @@ footer {
     height: 24px;
     vertical-align: middle;
   }
-  @media (max-width: 768px) {
-    .perfil:hover {
-      pointer-events: none;
+ /* Existing CSS styles */
+
+@media (max-width: 768px) {
+    body {
+      font-size: 120%; 
     }
+  
+    .container {
+      max-width: 90%; 
+      padding: 15px; 
+    }
+  
+    .imagen-perfil {
+      width: 150px; 
+      height: 150px;
+    }
+  
+   
   }
+  
