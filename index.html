@@ -7,6 +7,7 @@
   <title>CV Cristian Villanueva</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="print.css" media="print">
+
 </head>
 
 <body>
@@ -19,8 +20,10 @@
     </div>
     <div class="datos">
       <p><img src="img/ubicacion.svg" width="30px"> Madrid</p>
-      <p><img src="img/telefono.svg" width="30px"> <a class="enlace-telefono" href="https://wa.me/34660166094"> 660 166 094</a></p>
-      <p><img src="img/correo.svg" width="30px"> <a class="enlace-correo" href="mailto:cristianvillanueva1997@gmail.com">cristianvillanueva1997@gmail.com</a></p>   
+      <p><img src="img/telefono.svg" width="30px"> <a class="enlace-telefono" href="https://wa.me/34660166094"> 660 166
+          094</a></p>
+      <p><img src="img/correo.svg" width="30px"> <a class="enlace-correo"
+          href="mailto:cristianvillanueva1997@gmail.com">cristianvillanueva1997@gmail.com</a></p>
     </div>
     <hr>
     <div class="category">
@@ -51,7 +54,7 @@
       <h2>Experiencia</h2>
       <div class="category-content">
         <p>
-          <strong>Alumno informático trabajador en PATRIMONIO NACIONAL</strong><br>
+          <strong>Desarrollador web en PATRIMONIO NACIONAL</strong><br>
           2023-2024<br>
           - Desarrollar elementos software en el entorno cliente.<br>
           - Desarrollar elementos software en el entorno servidor.<br>
@@ -160,14 +163,21 @@
         <p>Director proyecto: Alberto Sanglier – 627 564 567 – albertosanglier@teachers.org</p>
       </div>
     </div>
+    <div class="botones">
     <div class="boton">
-    <button onclick="imprimir()" class="download">Guardar PDF</button>
-    </div>  
+      <button onclick="imprimir()" class="download">Imprimir</button>
+    </div>
+    <div class="boton2">
+      <button onclick="guardar()" class="download">Descargar PDF</button>
+    </div>
   </div>
+  </div>
+  </div>
+
   <footer>
     <p>&copy; 2024 Cristian VP</p>
     <a href="https://es.linkedin.com/in/cristian-villanueva-perez">
-      <img class="linkedin-logo"src="https://cdn-icons-png.flaticon.com/256/174/174857.png" alt="LinkedIn logo">
+      <img class="linkedin-logo" src="https://cdn-icons-png.flaticon.com/256/174/174857.png" alt="LinkedIn logo">
     </a>
   </footer>
 
@@ -183,10 +193,17 @@
       });
     });
 
-    function imprimir(){
-        window.print()
-      
+    function imprimir() {
+      window.print()
+
     };
+
+    function guardar() {
+    const url = "CV_Cristian.pdf";
+    window.location.href = url;
+}
+
+
 
   </script>
 
